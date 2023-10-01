@@ -17,6 +17,11 @@ namespace Infrastructure.Mappings
                 .HasColumnName("Id")
                 .ValueGeneratedOnAdd();
 
+            builder.Property(c => c.Name)
+                .HasMaxLength(50)
+                .HasColumnType("varchar")
+                .IsRequired();
+
             // Relationship mapping between Cart and CartItem
             builder.HasMany(c => c.Items)
                 .WithOne()

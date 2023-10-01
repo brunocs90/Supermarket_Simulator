@@ -18,7 +18,8 @@ namespace Infrastructure.Mappings
                 .ValueGeneratedOnAdd();
 
             builder.Property(p => p.Name)
-                .HasMaxLength(255)
+                .HasMaxLength(50)
+                .HasColumnType("varchar")
                 .IsRequired();
 
             builder.Property(p => p.Price)
