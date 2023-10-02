@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CF05B9C5-E8BB-487A-A2E3-E760D5C9F0C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{8D4323CF-5AEF-443C-915E-C64FB1EFFA1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{8D4323CF-5AEF-443C-915E-C64FB1EFFA1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket_Simulator.AcceptanceTests", "Supermarket_Simulator.AcceptanceTests\Supermarket_Simulator.AcceptanceTests.csproj", "{0AFE29CA-3F2E-4556-BE3E-5DBA4F74080E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8D4323CF-5AEF-443C-915E-C64FB1EFFA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4323CF-5AEF-443C-915E-C64FB1EFFA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4323CF-5AEF-443C-915E-C64FB1EFFA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFE29CA-3F2E-4556-BE3E-5DBA4F74080E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFE29CA-3F2E-4556-BE3E-5DBA4F74080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFE29CA-3F2E-4556-BE3E-5DBA4F74080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFE29CA-3F2E-4556-BE3E-5DBA4F74080E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
